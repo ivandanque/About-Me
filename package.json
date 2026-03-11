@@ -1,0 +1,27 @@
+{
+    "name": "portfolio-website",
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "format": "bunx prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.2.1",
+        "daisyui": "^5.5.19",
+        "gh-pages": "^6.3.0",
+        "solid-devtools": "^0.34.5",
+        "tailwindcss": "^4.2.1",
+        "typescript": "^5.9.3",
+        "vite": "^7.3.1",
+        "vite-plugin-solid": "^2.11.10"
+    },
+    "dependencies": {
+        "prettier": "^3.8.1",
+        "solid-js": "^1.9.11"
+    }
+}
