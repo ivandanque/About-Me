@@ -11,5 +11,5 @@ export default defineConfig({
     build: {
         target: "esnext",
     },
-    base: "/about-me/",
+    base: "/About-Me/",
 });
