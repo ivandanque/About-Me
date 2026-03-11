@@ -8,7 +8,8 @@
         "dev": "vite",
         "build": "vite build",
         "serve": "vite preview",
-        "format": "bunx prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+        "format": "bunx prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+        "deploy": "bun run build && gh-pages -d dist"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.2.1",
